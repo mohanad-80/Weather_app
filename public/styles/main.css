@@ -154,7 +154,7 @@ h2 svg {
 
 .stat-1 {
   height: 9vh;
-  width: 250px;
+  width: 280px;
 }
 
 .stat-1 .stat-svg {
@@ -166,7 +166,7 @@ h2 svg {
 
 .stat-svg svg {
   height: 20px;
-  width: 50px;
+  width: 60px;
 }
 
 .stat-1 .stat-nums {
@@ -183,7 +183,7 @@ h2 svg {
 
 .stat-2 {
   height: 11vh;
-  width: 250px;
+  width: 280px;
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
