@@ -18,9 +18,6 @@ app.post("/", async (req, res) => {
         headers: {
           "X-Api-Key": "wBS81aIwmsKF8wpLPrPIGA==ewmGcELDu0SYzR2N",
         },
-        params: {
-          _limit: 1000
-        }
       }
     );
     // console.log(result);
