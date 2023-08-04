@@ -1,0 +1,251 @@
+
+
+/* ##############animated background################ */
+
+body  {
+  background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+background-size:cover;
+      -webkit-animation: slidein 100s;
+      animation: slidein 100s;
+
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+
+
+.center
+{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+margin: auto;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(75, 75, 250, 0.3);
+border-radius: 3px;
+}
+
+/* ###################################### */
+
+body {
+  margin: 0;
+}
+
+/* ########## header section ########## */
+.header {
+  /* background-color: blueviolet; */
+  height: 60px;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* ########## body section ########## */
+.container {
+  /* background-color: aquamarine; */
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-card {
+  background-color: blanchedalmond;
+  height: 60vh;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.night {
+  background-color: #0B2447;
+}
+
+.night .section {
+  background-color: #19376D;
+  color: white;
+}
+
+.night .stat-2 .min {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.day {
+  background-color: #75C2F6;
+}
+
+.day .section {
+  background-color: #AEE2FF;
+  color: black;
+}
+
+.day .stat-2 .min {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.search-bar .search {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+  padding-left: 5px;
+} 
+
+.search-bar .search-btn {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.section {
+  border-radius: 10px;
+
+}
+
+.temp {
+  /* background-color: aliceblue; */
+  height: 25vh;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+}
+
+h2 {
+  margin: 10px 0 10px 0;
+  font-size: 40px;
+}
+
+h2 svg {
+  height: 30px;
+  width: 30px;
+}
+
+.stat-1 {
+  height: 9vh;
+  width: 250px;
+}
+
+.stat-1 .stat-svg {
+  height: 4vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.stat-svg svg {
+  height: 20px;
+  width: 50px;
+}
+
+.stat-1 .stat-nums {
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stat-nums h4 {
+  width: 55px;
+  text-align: center;
+}
+
+.stat-2 {
+  height: 11vh;
+  width: 250px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.stat-2 .dates {
+  height: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dates p {
+  width: 40px;
+  text-align: center;
+}
+
+.stat-2 .max {
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.max p {
+  width: 43px;
+  text-align: center;
+}
+
+.stat-2 .min {
+  height: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.min p {
+  width: 34.4px;
+  text-align: center;
+}
+
+.error-message {
+  height: 13vh;
+  width: 250px;
+  text-align: center;
+  background-color: #75C2F6;
+  border-radius: 10px;
+}
+
+/* ########## footer section ########## */
+.footer {
+  /* background-color: chartreuse; */
+  height: 82px;
+  text-align: center;
+}
+
+.copyright1 {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.copyright1 a {
+  color: black;
+}
