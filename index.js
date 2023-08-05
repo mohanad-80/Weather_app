@@ -25,7 +25,7 @@ app.post("/", async (req, res) => {
     longitude = result.data[0].longitude;
   } catch (error) {
     console.log("Failed to requst: ", error.message);
-    res.status(500).send(error.message);
+    res.status(500).render("index.ejs", { error: error.message });
   }
   try {
     const result = await axios.get(
